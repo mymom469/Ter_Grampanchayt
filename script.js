@@ -71,6 +71,10 @@ document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
         }
     });
 });
+document.getElementById('nav-toggle').addEventListener('click', function(){
+  document.getElementById('nav-menu').classList.toggle('open');
+});
+
 
 
 // NOTICES DATA
@@ -855,3 +859,4 @@ function addGalleryItem(galleryData) {
   renderGallery();
 
 }
+
