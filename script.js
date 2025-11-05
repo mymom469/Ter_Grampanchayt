@@ -27,7 +27,7 @@ const PANCHAYAT_MEMBERS = [
       en: "Sarpanch",
       mr: "सरपंच"
     },
-    photo: "images/panchayat members/sarpanch.jpg",
+    photo: "sarpanch.jpg",
     contact: "+91 8308774202"
   },
   {
@@ -40,7 +40,7 @@ const PANCHAYAT_MEMBERS = [
       en: "Deputy Sarpanch",
       mr: "उप सरपंच"
     },
-    photo: "images/panchayat members/upsarpanch.jpg",
+    photo: "upsarpanch.jpg",
     contact: "+91 7020393677"
   },
    {
@@ -53,7 +53,7 @@ const PANCHAYAT_MEMBERS = [
       en: "Village Development Officer",
       mr: "ग्रामविकास अधिकारी"
     },
-    photo: "images/panchayat members/gramsevak - Copy.jpg",
+    photo: "gramsevak - Copy.jpg",
     contact: "+91 9403725118"
   }
 ];
@@ -129,18 +129,18 @@ const GALLERY_DATA = [
       mr: "आमच्या गावाचे प्रशासकीय केंद्र जिथे सर्व सरकारी सेवा आणि सामुदायिक सभा आयोजित केल्या जातात."
     },
     images: [
-      "images/panchayat/grp1.jpg",
-      "images/panchayat/grp2.jpg",
-      "images/panchayat/grp3.jpg",
-      "images/panchayat/grp4.jpg",
-      "images/panchayat/grp5.jpg",
-      "images/panchayat/grp6.jpg",
-      "images/panchayat/grp7.jpg",
-      "images/panchayat/grp8.jpg",
-      "images/panchayat/grp9.jpg",
-      "images/panchayat/grp10.jpg",
-      "images/panchayat/grp11.jpg",
-      "images/panchayat/grp12.jpg",
+      "grp1.jpg",
+      "grp2.jpg",
+      "grp3.jpg",
+      "grp4.jpg",
+      "grp5.jpg",
+      "grp6.jpg",
+      "grp7.jpg",
+      "grp8.jpg",
+      "grp9.jpg",
+      "grp10.jpg",
+      "grp11.jpg",
+      "grp12.jpg",
     ]
 
   },
@@ -155,9 +155,9 @@ const GALLERY_DATA = [
       mr: "देवी कोष्ठ अंबिका मदिरातिल मूर्ती ही कुलस्वामिनी तुळजा भवानी सारखी आहे. देवी अंबिका ही पद्मासनात स्थानपण झालेली दिसते दसरा किव्हा नवरात्री इथे उत्सव असतो  देवीला सजवले जाते."
     },
     images: [
-      "images/temples/ambika/ambikadevi1.jpg",
-      "images/temples/ambika/ambikadevi2.jpg",
-      "images/temples/ambika/ambikadevi3.jpg"
+      "ambikadevi1.jpg",
+      "ambikadevi2.jpg",
+      "ambikadevi3.jpg"
     ]
   },
   {
@@ -171,7 +171,7 @@ const GALLERY_DATA = [
       mr: "भगवान गजानन महाराज पालखी जिथे भक्त प्रार्थना आणि आशीर्वादासाठी येतात."
     },
     images: [
-      "images/temples/gajanan maharaj/gajananmaharaj.jpg"
+      "gajananmaharaj.jpg"
     ]
   },
   {
@@ -185,16 +185,16 @@ const GALLERY_DATA = [
       mr: "संत गोरबा काका हे वारकरी संप्रदायातील एक अतिशय आदरणीय संत होते. त्यांचा जन्म उस्मानाबाद जिल्ह्यातील तेर गावात झाला. ते मूळचे मातीशी जोडलेले, अत्यंत साधेपणाने आयुष्य जगणारे आणि विठ्ठलभक्तीमध्ये लीन असलेले वारकरी संत म्हणून ओळखले जातात. गोरबा काका हे संत ज्ञानेश्वर, संत नामदेव यांचे समकालीन मानले जातात. त्यांनी शेतकरी आणि सामान्य लोकांना अध्यात्म, भक्ती आणि साधेपणाचा मार्ग दाखविला. गोरबा काकांच्या जीवनातून “कष्ट, प्रामाणिकपणा आणि विठ्ठलनामस्मरण” या मूल्यांचा प्रसार झाला.तेर गावात आजही संत गोरबा काकांचे मंदिर आहे, जे वारकरी आणि भाविकांसाठी मोठे पूजनीय स्थान आहे. प्रत्येक वर्षी येथे उत्सव, पालखी सोहळे आणि कीर्तन-भजनाचे कार्यक्रम होतात. वारकरी मोठ्या श्रद्धेने गोरबा काकांच्या मंदिरात दर्शन घेण्यासाठी येतात आणि विठ्ठलभक्तीचा अनुभव घेतात. त्यांच्या स्मृतीमुळे तेर हे गाव महाराष्ट्राच्या सांस्कृतिक आणि आध्यात्मिक इतिहासात एक विशेष स्थान मिळवते."
     },
     images: [
-      "images/temples/goroba kaka/gorobakaka1.jpg",
-      "images/temples/goroba kaka/gorobakaka2.jpg",
-      "images/temples/goroba kaka/gorobakaka3.jpg",
-      "images/temples/goroba kaka/gorobakaka4.jpg",
-      "images/temples/goroba kaka/gorobakaka5.jpg",
-      "images/temples/goroba kaka/gorobakaka6.jpg",
-      "images/temples/goroba kaka/gorobakaka7.jpg",
-      "images/temples/goroba kaka/gorobakaka8.jpg",
-      "images/temples/goroba kaka/gorobakaka9.jpg",
-      "images/temples/goroba kaka/gorobakaka10.jpg"
+      "gorobakaka1.jpg",
+      "gorobakaka2.jpg",
+      "gorobakaka3.jpg",
+      "gorobakaka4.jpg",
+      "gorobakaka5.jpg",
+      "gorobakaka6.jpg",
+      "gorobakaka7.jpg",
+      "gorobakaka8.jpg",
+      "gorobakaka9.jpg",
+      "gorobakaka10.jpg"
     ]
   },
   {
@@ -208,23 +208,23 @@ const GALLERY_DATA = [
       mr: "भगवान महावीरांचे येथे माघ शुध्द पंचमीस समवशरण आलेले होते. म्हणजे २६०० से वर्षा पुर्वी साक्षात भगवतांच्या पदस्पर्शाने पावन झालेली आहे. तेर हे गाव पुर्वी तगर नावाची राजधानी होती करकंडू नावाचा जैन राजा तेथे राज्य करत होता त्याचा युरोप व अशियाशी मध्ये व्यापार चालत असे अशाप्रकाराचा पुरावा इथल्या उत्खननात सापडला आहे. अनेक पुरातन व आश्चर्य जनक वस्तू येथील उत्खननात सापडले आहे. पुर्वीचे धाराशिव व आताचे उस्मानावाद नावाने ओळखले जाते या शहराच्या लगत असलेली प्रसिध्द लेणी हा सर्व भाग राजधानी तगरचाच होता. पुर्वी अतिशय वैभवात असलेली भ. महावीरांच्या चरण कमलाच्या विहाराने ही भुमी पावन झालेली आहे."
     },
     images: [
-      "images/temples/jain/jain1.jpg",
-      "images/temples/jain/jain2.jpg",
-      "images/temples/jain/jain3.jpg",
-      "images/temples/jain/jain4.jpg",
-      "images/temples/jain/jain5.jpg",
-      "images/temples/jain/jain6.jpg",
-      "images/temples/jain/jain7.jpg",
-      "images/temples/jain/jain8.jpg",
-      "images/temples/jain/jain9.jpg",
-      "images/temples/jain/jain10.jpg",
-      "images/temples/jain/jain11.jpg",
-      "images/temples/jain/jain12.jpg",
-      "images/temples/jain/jain13.jpg",
-      "images/temples/jain/jain14.jpg",
-      "images/temples/jain/jain15.jpg",
-      "images/temples/jain/jain16.jpg",
-      "images/temples/jain/jain17.jpg"
+      "jain1.jpg",
+      "jain2.jpg",
+      "jain3.jpg",
+      "jain4.jpg",
+      "jain5.jpg",
+      "jain6.jpg",
+      "jain7.jpg",
+      "jain8.jpg",
+      "jain9.jpg",
+      "jain10.jpg",
+      "jain11.jpg",
+      "jain12.jpg",
+      "jain13.jpg",
+      "jain14.jpg",
+      "jain15.jpg",
+      "jain16.jpg",
+      "jain17.jpg"
     ]
   },
   {
@@ -238,7 +238,7 @@ const GALLERY_DATA = [
       mr: "उत्तरेश्वर मंदिर हे तेर येथील एक प्राचीन, जीर्ण विटांचे मंदिर आहे, जे भगवान शिव यांना समर्पित आहे. हे मंदिर त्याच्या सहाव्या-सातव्या शतकातील विटकामासाठी आणि भारतातील सर्वात जुनी जिवंत कोरीव लाकडी दरवाजाच्या चौकटीसाठी ओळखले जाते, जे आता लामतुरे संग्रहालयात जतन केले आहे . हे वाकाटकोत्तर काळातील सुरुवातीच्या विटा आणि लाकडी मंदिर स्थापत्यकलेचे एक महत्त्वपूर्ण उदाहरण आहे. सर्वात अद्वितीय वैशिष्ट्य म्हणजे त्याची कोरलेली लाकडी दरवाजाची चौकट (द्वारशाखा), जी भारतातील सर्वात जुनी लाकडी स्थापत्य कलाकृती मानली जाते.महाराष्ट्रातील सर्वात जुने जिवंत विटांचे मंदिर म्हणून उल्लेखनीय आहे. "
     },
     images: [
-      "images/temples/siddheshwar/siddheshwar1.jpg"
+      "siddheshwar1.jpg"
 
     ]
   },
@@ -253,18 +253,18 @@ const GALLERY_DATA = [
       mr: "त्रिविक्रम मंदिर हे महाराष्ट्राच्या उस्मानाबाद जिल्ह्यातील तेर येथे असलेले एक मंदिर आहे. भारत सरकारच्या भारतीय पुरातत्त्व सर्वेक्षणाने हे मंदिर राष्ट्रीय संरक्षित स्मारक म्हणून घोषित केलेले आहे. याठिकाणी माणसाच्या आकाराएवढी मोठी त्रिविक्रमाची मूर्ती आहे. त्रिविक्रम मंदिराची बांधणी चैत्यासारखी असून त्याचा काळ इ.स.चे दुसरे शतक ते इ.स.चे पाचवे शतक असा आहे."
     },
     images: [
-      "images/temples/trivikram/trivikram1.jpg",
-      "images/temples/trivikram/trivikram2.jpg",
-      "images/temples/trivikram/trivikram4.jpg",
-      "images/temples/trivikram/trivikram5.jpg",
-      "images/temples/trivikram/trivikram6.jpg",
-      "images/temples/trivikram/trivikram7.jpg",
-      "images/temples/trivikram/trivikram8.jpg",
-      "images/temples/trivikram/trivikram9.jpg",
-      "images/temples/trivikram/trivikram10.jpg",
-      "images/temples/trivikram/trivikram11.jpg",
-      "images/temples/trivikram/trivikram12.jpg",
-      "images/temples/trivikram/trivikram13.jpg"
+      "trivikram1.jpg",
+      "trivikram2.jpg",
+      "trivikram4.jpg",
+      "trivikram5.jpg",
+      "trivikram6.jpg",
+      "trivikram7.jpg",
+      "trivikram8.jpg",
+      "trivikram9.jpg",
+      "trivikram10.jpg",
+      "trivikram11.jpg",
+      "trivikram12.jpg",
+      "trivikram13.jpg"
     ]
   },
   {
@@ -278,15 +278,15 @@ const GALLERY_DATA = [
       mr: "वर्ग 1 ते 7 पर्यंतच्या मुलांना दर्जेदार शिक्षण देणारी सरकारी प्राथमिक शाळा."
     },
     images: [
-      "images/schools/kanya shala/kanyashala1.jpg",
-      "images/schools/kendriya shala/kendriyshala1.jpg",
-      "images/schools/kanya shala/kanyashala2.jpg",
-      "images/schools/kendriya shala/kendriyshala2.jpg",
-      "images/schools/kendriya shala/kendriyshala3.jpg",
-      "images/schools/kendriya shala/kendriyshala4.jpg",
-      "images/schools/kanya shala/kanyashala3.jpg",
-      "images/schools/kanya shala/kanyashala4.jpg",
-      "images/schools/kanya shala/kanyashala5.jpg"
+      "kanyashala1.jpg",
+      "kendriyshala1.jpg",
+      "kanyashala2.jpg",
+      "kendriyshala2.jpg",
+      "kendriyshala3.jpg",
+      "kendriyshala4.jpg",
+      "kanyashala3.jpg",
+      "kanyashala4.jpg",
+      "kanyashala5.jpg"
     ]
   },
   {
@@ -300,15 +300,15 @@ const GALLERY_DATA = [
       mr: "तेर या ठिकाणी मामांनी १० जून १९६० रोजी महाराष्ट्र संत विद्यालय, तेर याची स्थापना केली. संतांची शिकवण व परंपरा लाभलेल्या मामांनी या विद्यालयाचे नाव महाराष्ट्र संत विद्यालय असे नांव दिले. मुलांच्या राहण्याची गैरसोय होऊ नये म्हणून तेथेच मामांनी संत गोरोबा वसतिगृह सुरु केले."
     },
     images: [
-      "images/schools/sant vidyalaya/sant1.jpg",
-      "images/schools/sant vidyalaya/sant2.jpg",
-      "images/schools/sant vidyalaya/sant3.jpg",
-      "images/schools/sant vidyalaya/sant4.jpg",
-      "images/schools/sant vidyalaya/sant5.jpg",
-      "images/schools/sant vidyalaya/sant6.jpg",
-      "images/schools/sant vidyalaya/sant7.jpg",
-      "images/schools/sant vidyalaya/sant8.jpg",
-      "images/schools/sant vidyalaya/sant9.jpg"
+      "sant1.jpg",
+      "sant2.jpg",
+      "sant3.jpg",
+      "sant4.jpg",
+      "sant5.jpg",
+      "sant6.jpg",
+      "sant7.jpg",
+      "sant8.jpg",
+      "sant9.jpg"
     ]
   },
   {
@@ -323,7 +323,7 @@ const GALLERY_DATA = [
 
     },
     images: [
-      "images/rivers/dharan/dharan.jpg"
+      "dharan.jpg"
     ]
   },
   {
@@ -337,19 +337,19 @@ const GALLERY_DATA = [
       mr: " येथे गावकरी आणि आसपासच्या भागातील नागरिकांसाठी मोफत तपासणी, औषधे, आणि आपत्कालीन सेवा पुरवल्या जातात."
     },
     images: [
-      "images/hospitals/hospital1.jpg",
-      "images/hospitals/hospital2.jpg",
-      "images/hospitals/hospital3.jpg",
-      "images/hospitals/hospital4.jpg",
-      "images/hospitals/hospital5.jpg",
-      "images/hospitals/hospital6.jpg",
-      "images/hospitals/hospital7.jpg",
-      "images/hospitals/hospital8.jpg",
-      "images/hospitals/hospital9.jpg",
-      "images/hospitals/hospital10.jpg",
-      "images/hospitals/hospital11.jpg",
-      "images/hospitals/hospital12.jpg",
-      "images/hospitals/hospital13.jpg"
+      "hospital1.jpg",
+      "hospital2.jpg",
+      "hospital3.jpg",
+      "hospital4.jpg",
+      "hospital5.jpg",
+      "hospital6.jpg",
+      "hospital7.jpg",
+      "hospital8.jpg",
+      "hospital9.jpg",
+      "hospital10.jpg",
+      "hospital11.jpg",
+      "hospital12.jpg",
+      "hospital13.jpg"
     ]
   },
   {
@@ -363,7 +363,7 @@ const GALLERY_DATA = [
       mr: "गावकऱ्यांना आणि जवळच्या समुदायांना आवश्यक वैद्यकीय सेवा प्रदान करणारे सरकारी आरोग्य केंद्र."
     },
     images: [
-      "images/hospitals/pashuhospital.jpg"
+      "pashuhospital.jpg"
     ]
   },
   {
@@ -377,7 +377,7 @@ const GALLERY_DATA = [
       mr: "महाराष्ट्र ग्रामीण बँक ची शाखा तेर गाव, उस्मानाबाद येथे कार्यरत आहे. ही शाखा गावातील नागरिकांना विविध बँकिंग सेवा पुरवते जसे की बचत खाते, चालू खाते, ठेवी, शेती व लघुउद्योगांसाठी कर्ज, तसेच शासकीय योजना व अनुदाने वितरित करणे. तेर गावाच्या ग्रामीण अर्थव्यवस्थेला बळकट करण्यामध्ये या बँकेचे महत्त्वपूर्ण योगदान आहे."
     },
     images: [
-      "images/banks/mahabank.jpg"
+      "mahabank.jpg"
     ]
   },
   {
@@ -391,7 +391,7 @@ const GALLERY_DATA = [
       mr: "स्टेट बँक ऑफ इंडिया (SBI) तेर शाखा उस्मानाबाद जिल्ह्यातील तेर गावात कार्यरत असून गावकऱ्यांसाठी एक महत्त्वाचे आर्थिक केंद्र ठरले आहे. या शाखेचा पत्ता रुक्मिणी नगर कार्यालयाजवळ, एस.टी. स्टँड शेजारी, तेर, जि. उस्मानाबाद, महाराष्ट्र – 413509 असा आहे. या शाखेत बचत व चालू खाती, एफ.डी., शेती व शिक्षणासाठी कर्ज, घरकर्ज, तसेच नेट बँकिंग, मोबाईल बँकिंग व एटीएमसारख्या आधुनिक सुविधा उपलब्ध आहेत. त्यामुळे तेर गावातील नागरिकांच्या आर्थिक व्यवहारांसाठी ही शाखा एक विश्वासार्ह व सोयीस्कर ठिकाण ठरते."
     },
       images: [
-         "images/banks/statebank.jpg"
+         "statebank.jpg"
     ]
   },
   {
@@ -405,8 +405,8 @@ const GALLERY_DATA = [
       mr: "आमच्या गावाला जवळच्या शहरे आणि शहरांशी जोडणारा मुख्य बस स्टॉप."
     },
     images: [
-      "images/bus stop/busstop.jpg",
-      "images/bus stop/busstop2.jpg"
+      "busstop.jpg",
+      "busstop2.jpg"
     ]
   }
 ];
@@ -853,4 +853,5 @@ function addNotice(noticeData) {
 function addGalleryItem(galleryData) {
   GALLERY_DATA.push(galleryData);
   renderGallery();
+
 }
