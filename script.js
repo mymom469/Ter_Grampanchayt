@@ -860,3 +860,4 @@ function addGalleryItem(galleryData) {
 
 }
 
+
