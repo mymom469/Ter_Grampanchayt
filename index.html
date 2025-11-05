@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ter Gav Grampanchayat - तेर गाव ग्राम पंचायत</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Left: Logo and Title -->
+                <div class="logo">
+                    <img src="images\logop\logo.jpeg" alt="Panchayat Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1 class="logo-title" data-en="Ter Grampanchayat" data-mr="तेर गाव पंचायत">Ter Gav Panchayat</h1>
+                        <p class="logo-subtitle" data-en="Serving Our Community" data-mr="आमच्या समुदायाची सेवा">Serving Our Community</p>
+                    </div>
+                </div>
+                
+                <!-- Right: Navigation Menu -->
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link" data-en="Home" data-mr="मुख्यपृष्ठ">Home</a></li>
+                <!-- Dropdown: About -->
+                    <li class="dropdown">
+                    <a href="#about" class="nav-link dropdown-toggle" data-en="About" data-mr="आमच्याबद्दल">About ▾</a>
+            <ul class="dropdown-menu">
+                 <li><a href="#about" data-en="About Panchayat" data-mr="पंचायत बद्दल">About Panchayat</a></li>
+                 <li><a href="#panchayat-members" data-en="panchayat-members" data-mr="पंचायत सदस्य">Panchayat Members</a></li>
+                 <li><a href="#workers" data-en="Workers" data-mr="कामगार">Workers</a></li>
+                 <li><a href="#committees" data-en="Committees" data-mr="समित्या">Committees</a></li>
+
+            </ul>
+                </li>
+                        <!-- Dropdown: Services -->
+                        <li class="dropdown">
+                        <a href="#services" class="nav-link dropdown-toggle" data-en="Services" data-mr="सेवा">Services ▾</a>
+                        <ul class="dropdown-menu">
+                       <li><a href="#applications-fees"  data-en="applications-fees" data-mr="अर्ज & फी ">Application & Fees</a></li>
+                      <li><a href="#Gov-Schemes" data-en="Gov-Schemes" data-mr="शासकीय योजना">Government Schemes</a></li>
+
+            </ul>
+                </li>
+
+                   <!-- Dropdown: Notices -->
+                    <li class="dropdown">
+                     <a href="#notices" class="nav-link dropdown-toggle" data-en="Notices" data-mr="सूचना">Notices ▾</a>
+                     <ul class="dropdown-menu">
+                     <li><a href="#notices" data-en="Announcements" data-mr="घोषणा">Announcements</a></li>
+                     <li><a href="#Tenders" data-en="Tenders" data-mr="निविदा">Tenders</a></li>
+                    </ul>
+                     </li>  
+                        <li><a href="#gallery" class="nav-link" data-en="Gallery" data-mr="गॅलरी">Gallery</a></li>
+                        <li><a href="#contact" class="nav-link" data-en="Contact" data-mr="संपर्क">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Header Controls -->
+                <div class="header-controls">
+                    <div class="language-selector">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="mr">मर</button>
+                    </div>
+                    <button class="theme-toggle" id="themeToggle">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Home Section -->
+    <section id="home" class="home">
+        <div class="hero-bg">
+            <img src="images/mainpage/grobakaka.jpg" alt="Village Landscape">
+        </div>
+        <div class="container">
+            <div class="home-content">
+                <h2 class="home-title" data-en="Welcome to Ter Gav Grampanchayat" data-mr="तेर गाव ग्राम पंचायत मध्ये आपले स्वागत">Welcome to Ter Gav Grampanchayat</h2>
+                <p class="home-description" data-en="We are committed to serving our community with transparency, efficiency, and dedication. Our Grampanchayat works tirelessly to improve the quality of life for all residents of Ter village through various development programs and essential services." data-mr="आम्ही पारदर्शकता, कार्यक्षमता आणि समर्पणाने आमच्या समुदायाची सेवा करण्यासाठी वचनबद्ध आहोत. आमची ग्राम पंचायत विविध विकास कार्यक्रम आणि आवश्यक सेवांद्वारे तेर गावातील सर्व रहिवाशांच्या जीवनमानात सुधारणा करण्यासाठी अथक प्रयत्न करते.">We are committed to serving our community with transparency, efficiency, and dedication. Our Grampanchayat works tirelessly to improve the quality of life for all residents of Ter village through various development programs and essential services.</p>
+                <div class="home-buttons">
+                    <a href="#services" class="btn btn-primary" data-en="Our Services" data-mr="आमच्या सेवा">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary" data-en="Contact Us" data-mr="आमच्याशी संपर्क साधा">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="About Grampanchayat" data-mr="तेर पंचायतबद्दल">About Grampanchayat</h2>
+                <p class="section-subtitle" data-en="Know about our village and Panchayat members" data-mr="आमच्या गावाबद्दल आणि पंचायत सदस्यांबद्दल जाणून घ्या">Know about our village and Panchayat members</p>
+            </div>
+            
+            <!-- Grampanchayat Info -->
+            <div class="Grampanchayat-info">
+                <div class="Grampanchayat-content">
+                    <h3 data-en=" Grampanchayat Information" data-mr="ग्रामपंचायत माहिती">Grampanchayat Information</h3>
+                    <p data-en="Ter is an ancient and historically significant village in Osmanabad district, well known for its temples, samadhis, and heritage structures. The Grampanchayat of Ter works actively for the social, cultural, and economic development of the village. Its primary focus is to provide essential services such as water supply, sanitation, village roads, education, healthcare, and welfare schemes for the residents. The Grampanchayat also emphasizes transparent and accountable governance by adopting digital technology for better administration.
+
+                    The vision of the Grampanchayat is to make Ter a clean and green village, to build a digital Grampanchayat, to improve educational and healthcare facilities, and to empower farmers by promoting modern agricultural practices. It also aims to preserve and promote the village's historical heritage and tourism potential, while strengthening social and cultural unity through traditional events and community programs. Through these initiatives, the Grampanchayat strives to achieve holistic and sustainable development of Ter village." data-mr=" तेर हे उस्मानाबाद जिल्ह्यातील एक प्राचीन व ऐतिहासिक वारसा असलेले गाव असून येथे अनेक मंदिरे, समाधी स्थळे आणि ऐतिहासिक वास्तू आढळतात. 
+                    ग्रामपंचायत तेर गावाचा सामाजिक, सांस्कृतिक आणि आर्थिक विकास करण्यासाठी कार्यरत आहे. पाणीपुरवठा, स्वच्छता, ग्रामरस्ते, शिक्षण, आरोग्य व ग्रामकल्याणाच्या विविध योजना प्रभावीपणे राबवून गावकऱ्यांना आवश्यक सुविधा उपलब्ध करून देणे हा ग्रामपंचायतीचा मुख्य उद्देश आहे. तसेच ग्रामपंचायत डिजिटल तंत्रज्ञानाचा वापर करून पारदर्शक व जबाबदार प्रशासन उभारण्याचा संकल्प करते.
+
+                    ग्रामपंचायतीचा दृष्टीकोन म्हणजे तेर गावाला स्वच्छ व हिरवे गाव बनवणे, डिजिटल ग्रामपंचायत उभारणे, शिक्षण व आरोग्य सुविधांचा विकास करणे, आधुनिक शेती पद्धतींचा प्रसार करून शेतकऱ्यांना सक्षम बनवणे, गावातील ऐतिहासिक वारसा व पर्यटन संवर्धनाला प्रोत्साहन देणे तसेच सांस्कृतिक व सामाजिक कार्यक्रमातून ग्रामस्थांना एकत्र आणणे हा आहे. या उपक्रमांद्वारे तेर गावाचे सर्वांगीण व शाश्वत विकास साधणे हीच ग्रामपंचायतीची खरी दृष्टी आहे."></p>
+                </div>
+                <div class="Grampanchayat-image">
+                    <img src="images\panchayat\grp13.jpg">
+                </div>
+            </div>
+             
+    <!-- Notices Section -->
+    <section id="notices" class="notices">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Notices & Announcements" data-mr="सूचना आणि घोषणा">Notices & Announcements</h2>
+                <p class="section-subtitle" data-en="Latest updates and important announcements" data-mr="नवीनतम अपडेट्स आणि महत्वाच्या घोषणा">Latest updates and important announcements</p>
+            </div>
+
+            <div class="notices-container">
+                <div class="notices-marquee" id="noticesMarquee">
+                    <!-- Notices will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="notices-list" id="noticesList">
+                <!-- Static notices list will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+
+
+            <!-- Panchayat Members -->
+        <div id="panchayat-members" class="panchayat-members">
+              <h3 class="members-title" data-en="Panchayat Members" data-mr="पंचायत सदस्य">Panchayat Members</h3>
+            <div class="members-grid" id="membersGrid">
+                    <!-- Members will be populated by JavaScript -->
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <!-- Workers Section -->
+<section id="workers" class="workers">
+  <div class="container">
+    <h3 class="section-title" data-en="Panchayat Workers" data-mr="पंचायत कामगार">Panchayat Workers</h3>
+    <div class="workers-grid">
+         <div class="worker-card">
+        <h4 data-en="Mr.balhasaheb rasalh" data-mr="श्री. बाळासाहेब रसाळ">Mr.balhasaheb rasalh</h4>
+        <p data-en="+91 ##### #####" data-mr="+91 ##### #####"> +91 ##### #####</p>
+      </div>
+      <div class="worker-card">
+        <h4 data-en="Mr.Vaibhav Dige" data-mr="श्री.वैभव डिगे">Mr.Vaibhav Dige</h4>
+        <p data-en="7350647846" data-mr="७३५०६४७८४६"> 7350647846</p>
+      </div>
+      <div class="worker-card">
+        <h4 data-en="Mr.Ashpak Shaikh" data-mr="श्री.आशपाक शेख">Mr. Ashpak Shaikh</h4>
+        <p data-en=" 9158868638" data-mr=" ९१५८८६८६३८"> 9158868638</p>
+      </div>
+       <div class="worker-card">
+        <h4 data-en="Mrs.Savita Pasare" data-mr="श्री.सविता पसारे">Mrs.Savita Pasare</h4>
+        <p data-en="8208679650" data-mr="८२०८६७९६५०">8208679650</p> 
+      </div>
+       <div class="worker-card">
+        <h4 data-en="Mr.Avinash khandekar" data-mr="श्री. अविनाश खांडेकर">Mr.Avinash khandekar</h4>
+        <p data-en="8830874488" data-mr="८८३०८७४४८८">8830874488</p>
+      </div>
+      <div class="worker-card">
+        <h4 data-en="Mr.Kokre" data-mr="श्री.कोकरे">Mr.Kokre</h4>
+        <p data-en="+91 ##### #####" data-mr="+91 ##### #####">+91 ###########</p>
+        
+      </div>
+      <div class="worker-card">
+        <h4 data-en="Mr.Vikas Mulhe" data-mr="श्री.श्री. विकास मुळे ">Mr.Vikas Mulhe</h4>
+        <p data-en=" 8668805784" data-mr="८६६८८०५७८४"> 8668805784<p>
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    
+<!-- Guidelines Section -->
+<section id="guidelines" class="guidelines">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-en="Guidelines for All Certificates" data-mr="सर्व प्रमाणपत्रासाठी मार्गदर्शक सूचना">
+        Guidelines for All Certificates
+      </h2>
+      <p class="section-subtitle" data-en="Step-by-step process to apply for certificates online" data-mr="प्रमाणपत्र ऑनलाइन अर्ज करण्याची टप्प्याटप्प्याने प्रक्रिया">
+        Step-by-step process to apply for certificates online
+      </p>
+    </div>
+
+    <ol class="guidelines-list">
+      <li data-en="Go to Aaple Sarkar Portal" data-mr="आपले सरकार पोर्टलवर जा">Go to Aaple Sarkar Portal</li>
+      <li data-en="Register as a new user or Login if already registered." data-mr="नवीन वापरकर्ता असल्यास नोंदणी करा किंवा लॉगिन करा.">Register as a new user or Login if already registered.</li>
+      <li data-en="Select Department → Birth Certificate Service." data-mr="विभाग निवडा → जन्म प्रमाणपत्र सेवा निवडा.">Select Department → Birth Certificate Service.</li>
+      <li data-en="Fill the application form and upload required documents." data-mr="फॉर्म भरा व आवश्यक कागदपत्रे अपलोड करा.">Fill the application form and upload required documents.</li>
+      <li data-en="Submit the form and pay the required fees (if any)." data-mr="फॉर्म सबमिट करा व शुल्क (असल्यास) भरा.">Submit the form and pay the required fees (if any).</li>
+      <li data-en="Save the Application/Transaction ID for tracking." data-mr="अर्ज क्रमांक / Transaction ID जतन करा.">Save the Application/Transaction ID for tracking.</li>
+      <li data-en="Check the status and download your certificate." data-mr="अर्जाची स्थिती तपासा व प्रमाणपत्र डाउनलोड करा.">Check the status and download your certificate.</li>
+      <li data-en="Verify certificate authenticity using barcode number." data-mr="प्रमाणपत्राची वैधता बारकोड नंबरद्वारे तपासा.">Verify certificate authenticity using barcode number.</li>
+    </ol>
+
+    <!-- Videos Grid -->
+    <div class="guidelines-videos" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 30px;">
+      <!-- Video 1 -->
+      <div class="video-box">
+      <iframe width="100%" height="250" src="https://www.youtube.com/embed/KykVwsKNF14" title="Aaple sarkar mahaonline registration process | आपले सरकार नोंदणी, शासकीय कागदपत्र घरबसल्या (2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="video-box">
+      <iframe width="100%" height="250" src="https://www.youtube.com/embed/dnYPXduY_3I" title="असे काढा मृत्यु प्रमाणपत्र  Apply Death Certificate Maharashtra Online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+      </div>
+
+      <!-- Video 3 -->
+      <div class="video-box">
+      <iframe width="100%" height="250" src="https://www.youtube.com/embed/RU1CO2cYzd4" title="असे काढा 🔴 Residence Certificate Online Maharashtra | How to apply Residence Certificate Online" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
+     </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title" data-en="Our Services" data-mr="आमच्या सेवा">Our Services</h2>
+            <p class="section-subtitle" data-en="Online services and certificates" data-mr="ऑनलाइन सेवा आणि प्रमाणपत्रे">Online services and certificates</p>
+        </div>
+
+        <div class="services-grid">
+            <!-- Birth Certificate -->
+            <div class="service-card">
+                <div class="service-icon">📋</div>
+                <h3 class="service-title" data-en="Birth Certificate" data-mr="जन्म प्रमाणपत्र">Birth Certificate</h3>
+                <p class="service-description" data-en="Apply for birth certificate online" data-mr="जन्म प्रमाणपत्रासाठी ऑनलाइन अर्ज करा">Apply for birth certificate online</p>
+                <div class="service-actions">
+                    <a href="https://aaplesarkar.mahaonline.gov.in" target="_blank" class="service-btn btn btn-primary" data-en="Apply Online" data-mr="ऑनलाइन अर्ज करा">Apply Online</a>
+                    <div class="service-dropdown">
+                        <a href="images/pdf/Birth_Certificate.pdf" download data-en="Required Forms" data-mr="आवश्यक कागदपत्रांची यादी">Required Forms</a>
+                        <div class="dropdown-content" id="birth-forms">
+                            <p class="mt-2 text-sm">Contact - 7350647846</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Death Certificate -->
+            <div class="service-card">
+                <div class="service-icon">⚰️</div>
+                <h3 class="service-title" data-en="Death Certificate" data-mr="मृत्यू प्रमाणपत्र">Death Certificate</h3>
+                <p class="service-description" data-en="Apply for death certificate online" data-mr="मृत्यू प्रमाणपत्रासाठी ऑनलाइन अर्ज करा">Apply for death certificate online</p>
+                <div class="service-actions">
+                    <a href="https://aaplesarkar.mahaonline.gov.in" target="_blank" class="service-btn btn btn-primary" data-en="Apply Online" data-mr="ऑनलाइन अर्ज करा">Apply Online</a>
+                    <div class="service-dropdown">
+                        <a href="images/pdf/Death_Certificate.pdf" download data-en="Required Forms" data-mr="आवश्यक कागदपत्रांची यादी">Required Forms</a>
+                        <div class="dropdown-content" id="death-forms">
+                            <p class="mt-2 text-sm">Contact - 7350647846</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Residence Certificate -->
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3 class="service-title" data-en="Residence Certificate" data-mr="निवास प्रमाणपत्र">Residence Certificate</h3>
+                <p class="service-description" data-en="Apply for residence certificate online" data-mr="निवास प्रमाणपत्रासाठी ऑनलाइन अर्ज करा">Apply for residence certificate online</p>
+                <div class="service-actions">
+                    <a href="https://aaplesarkar.mahaonline.gov.in" target="_blank" class="service-btn btn btn-primary" data-en="Apply Online" data-mr="ऑनलाइन अर्ज करा">Apply Online</a>
+                    <div class="service-dropdown">
+                        <a href="images/pdf/residient_certificate.pdf" download data-en="Required Forms" data-mr="आवश्यक कागदपत्रांची यादी">Required Forms</a>
+                        <div class="dropdown-content" id="residence-forms">
+                            <p class="mt-2 text-sm">Contact - 7350647846</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Complaint Form Section with Google Form -->
+<section id="complaint-form" class="complaint-form container">
+    <h3 class="section-title" data-en="Complaint Form" data-mr="तक्रार फॉर्म">Complaint Form</h3>
+      <p class="section-subtitle" data-en="Your Grampanchayat will ensure fair resolution of your concerns" 
+       data-mr="ग्रामपंचायत तुमच्या तक्रारीचे योग्य निराकरण करेल.">
+       ग्रामपंचायत तुमच्या तक्रारीचे योग्य निराकरण करेल.
+    </p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSentEjPKdYcnhGzVorE1BUwuEPBmifU2XqfYxdJPnirBpuyYA/viewform?embedded=true" width="100%" height="800px" frameborder="0" marginheight="0" marginwidth="0" text-align="center">Loading…</iframe>
+</section>
+
+<!-- Government Schemes Section (UPDATED) -->
+<section id="Gov-Schemes" class="Gov-Schemes">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-en="Government Schemes" data-mr="शासकीय योजना">Government Schemes</h2>
+      <p class="section-subtitle" data-en="Explore various government schemes available for Ter village residents" data-mr="तेर गावातील रहिवाशांसाठी उपलब्ध विविध शासकीय योजना एक्सप्लोर करा">
+        Explore various government schemes available for Ter village residents
+      </p>
+    </div>
+
+    <div class="schemes-grid">
+
+      <!-- PM-KISAN -->
+      <div class="scheme-card">
+        <h3 class="scheme-title" data-en="PM Kisan Samman Nidhi" data-mr="पीएम किसान सम्मान निधी">
+          PM Kisan Samman Nidhi
+        </h3>
+        <p class="scheme-description"
+           data-en="Direct income support to eligible farmer families into their bank accounts."
+           data-mr="पात्र शेतकरी कुटुंबांना थेट आर्थिक सहाय्य बँक खात्यात जमा केले जाते.">
+          Direct income support to eligible farmer families into their bank accounts.
+        </p>
+
+        <div class="scheme-actions">
+          <a href="https://pmkisan.gov.in/" target="_blank" class="btn btn-primary"
+             data-en="Go to PM-KISAN Portal" data-mr="PM-KISAN पोर्टल उघडा">Go to PM-KISAN Portal</a>
+        </div>
+
+        <!-- What you need -->
+        <div class="scheme-meta">
+          <h4 data-en="What you need" data-mr="काय आवश्यक आहे">What you need</h4>
+          <ul class="need-list">
+            <li data-en="Aadhaar number linked with mobile for OTP" data-mr="OTP साठी मोबाईलशी लिंक असलेला आधार क्रमांक">Aadhaar number linked with mobile for OTP</li>
+            <li data-en="Bank account details (account no. & IFSC)" data-mr="बँक खात्याचा तपशील (खाते क्र. व IFSC)">Bank account details (account no. & IFSC)</li>
+            <li data-en="Basic land details as per records" data-mr="जमिनीचा अधिकृत नोंदीनुसार तपशील">Basic land details as per records</li>
+          </ul>
+        </div>
+
+        <!-- Step-by-step -->
+        <div class="guidelines">
+          <h4 data-en="Step-by-step Guidelines" data-mr="टप्प्याटप्प्याच्या सूचना">Step-by-step Guidelines</h4>
+          <ol class="scheme-steps">
+            <li data-en="Open pmkisan.gov.in and go to Farmer Corner → New Farmer Registration."
+                data-mr="pmkisan.gov.in उघडा व Farmer Corner → New Farmer Registration निवडा.">
+              Open pmkisan.gov.in and go to Farmer Corner → New Farmer Registration.
+            </li>
+            <li data-en="Select your State/District, enter Aadhaar number and verify via OTP."
+                data-mr="राज्य/जिल्हा निवडा, आधार क्रमांक भरा व OTP ने पडताळणी करा.">
+              Select your State/District, enter Aadhaar number and verify via OTP.
+            </li>
+            <li data-en="Fill your name as per Aadhaar, bank details (account & IFSC), address and land details."
+                data-mr="आधारप्रमाणे नाव, बँक तपशील (खाते व IFSC), पत्ता व जमिनीचा तपशील भरा.">
+              Fill your name as per Aadhaar, bank details (account & IFSC), address and land details.
+            </li>
+            <li data-en="Submit the form and note the registration/reference number."
+                data-mr="फॉर्म सबमिट करा व नोंदणी/रेफरन्स क्रमांक नोंद करून ठेवा.">
+              Submit the form and note the registration/reference number.
+            </li>
+            <li data-en="Complete eKYC from Farmer Corner (Aadhaar OTP) or visit a nearby CSC for biometric eKYC."
+                data-mr="Farmer Corner मधून eKYC (Aadhaar OTP) करा किंवा जवळच्या CSC केंद्रात biometric eKYC करून घ्या.">
+              Complete eKYC from Farmer Corner (Aadhaar OTP) or visit a nearby CSC for biometric eKYC.
+            </li>
+            <li data-en="Check Beneficiary Status under Farmer Corner to see approval and instalments."
+                data-mr="Farmer Corner मधील Beneficiary Status मध्ये मंजुरी व हप्ते तपासा.">
+              Check Beneficiary Status under Farmer Corner to see approval and instalments.
+            </li>
+            <li data-en="If details are incorrect/rejected, update using Edit Aadhaar Details or use Helpdesk/Grievance."
+                data-mr="माहिती चुकीची/नाकारली असल्यास Edit Aadhaar Details वा Helpdesk/Grievance वापरून दुरुस्ती करा.">
+              If details are incorrect/rejected, update using Edit Aadhaar Details or use Helpdesk/Grievance.
+            </li>
+          </ol>
+        </div>
+
+        <!-- Videos -->
+        <div class="scheme-videos">
+          <h4 data-en="Videos" data-mr="व्हिडिओ">Videos</h4>
+          <div class="video-container">
+            <!-- Search playlist embed so it always has fresh tutorials -->
+            <iframe width="360" height="215"  src="https://www.youtube.com/embed/jT3f_yDQPnc?si=LL2ko0IFn6WFFwXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="360" height="215"  src="https://www.youtube.com/embed/jT3f_yDQPnc?si=EVbiyLZT7cfcMI1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+          </div>
+        </div>
+      </div>
+
+      <!-- Ayushman Bharat (PM-JAY) -->
+      <div class="scheme-card">
+        <h3 class="scheme-title" data-en="Ayushman Bharat - PM-JAY" data-mr="आयुष्मान भारत - पीएम-जय">
+          Ayushman Bharat - PM-JAY
+        </h3>
+        <p class="scheme-description"
+           data-en="Health insurance coverage for eligible families with cashless treatment at empanelled hospitals."
+           data-mr="पात्र कुटुंबांसाठी empanelled रुग्णालयांमध्ये cashless उपचारांची सुविधा.">
+          Health insurance coverage for eligible families with cashless treatment at empanelled hospitals.
+        </p>
+
+        <div class="scheme-actions">
+          <a href="https://pmjay.gov.in/" target="_blank" class="btn btn-primary"
+             data-en="Go to PM-JAY Portal" data-mr="PM-JAY पोर्टल उघडा">Go to PM-JAY Portal</a>
+        </div>
+
+        <div class="scheme-meta">
+          <h4 data-en="What you need" data-mr="काय आवश्यक आहे">What you need</h4>
+          <ul class="need-list">
+            <li data-en="Aadhaar and ration card (or any valid ID as accepted locally)"
+                data-mr="आधार व रेशन कार्ड (किंवा स्थानिक पातळीवर मान्य असलेली ओळखपत्रे)">
+              Aadhaar and ration card (or any valid ID as accepted locally)
+            </li>
+            <li data-en="Mobile number for verification"
+                data-mr="पडताळणीसाठी मोबाईल नंबर">Mobile number for verification</li>
+          </ul>
+        </div>
+
+        <div class="guidelines">
+          <h4 data-en="Step-by-step Guidelines" data-mr="टप्प्याटप्प्याच्या सूचना">Step-by-step Guidelines</h4>
+          <ol class="scheme-steps">
+            <li data-en="Open pmjay.gov.in and use ‘Am I Eligible’ to check your family’s eligibility."
+                data-mr="pmjay.gov.in उघडून ‘Am I Eligible’ मधून तुमच्या कुटुंबाची पात्रता तपासा.">
+              Open pmjay.gov.in and use ‘Am I Eligible’ to check your family’s eligibility.
+            </li>
+            <li data-en="If eligible, visit the nearest CSC/PM-JAY kiosk or empanelled hospital."
+                data-mr="पात्र असल्यास जवळच्या CSC/PM-JAY किऑस्क किंवा empanelled रुग्णालयात जा.">
+              If eligible, visit the nearest CSC/PM-JAY kiosk or empanelled hospital.
+            </li>
+            <li data-en="Get your PM-JAY e-card generated after ID verification."
+                data-mr="ओळख पडताळणीनंतर PM-JAY e-card तयार करून घ्या.">
+              Get your PM-JAY e-card generated after ID verification.
+            </li>
+            <li data-en="Find empanelled hospitals on the portal and choose a suitable one."
+                data-mr="पोर्टलवर empanelled रुग्णालयांची यादी पाहून योग्य रुग्णालय निवडा.">
+              Find empanelled hospitals on the portal and choose a suitable one.
+            </li>
+            <li data-en="At the hospital helpdesk, show your e-card/Aadhaar; the hospital will request pre-authorization."
+                data-mr="रुग्णालय हेल्पडेस्कवर e-card/आधार दाखवा; रुग्णालय pre-authorization साठी विनंती करेल.">
+              At the hospital helpdesk, show your e-card/Aadhaar; the hospital will request pre-authorization.
+            </li>
+            <li data-en="Take cashless treatment; no payment needed at the counter for covered procedures."
+                data-mr="कव्हर असलेल्या उपचारांसाठी cashless सेवा घ्या; काऊंटरवर पेमेंट गरज नाही.">
+              Take cashless treatment; no payment needed at the counter for covered procedures.
+            </li>
+            <li data-en="Keep all discharge/medical papers and track any queries on the portal."
+                data-mr="डिस्चार्ज/वैद्यकीय कागदपत्रे जतन ठेवा व पोर्टलवरून माहिती तपासत राहा.">
+              Keep all discharge/medical papers and track any queries on the portal.
+            </li>
+          </ol>
+        </div>
+
+        <div class="scheme-videos">
+          <h4 data-en="Videos" data-mr="व्हिडिओ">Videos</h4>
+          <div class="video-container">
+            <iframe width="360" height="215"
+              src="https://www.youtube.com/embed/Y95nVSgzSiI?si=xRsOGq6pV4pYuWQT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="360" height="215"
+              src="https://www.youtube.com/embed/_s0qswmfi9s?si=pAp_ANgim74_dmIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gharkul Yojana (PMAY-G) -->
+<div class="scheme-card">
+  <h3 class="scheme-title" data-en="Gharkul Yojana (PMAY-G)" data-mr="घरकुल योजना (प्रधानमंत्री आवास योजना-ग्रामीण)">
+    Gharkul Yojana (PMAY-G)
+  </h3>
+  <p class="scheme-description"
+     data-en="Affordable housing scheme for rural poor families to build pucca houses with basic amenities."
+     data-mr="ग्रामीण गरिब कुटुंबांना मूलभूत सोयीसह पक्के घर बांधण्यासाठी परवडणारी घरकुल योजना.">
+     Affordable housing scheme for rural poor families to build pucca houses with basic amenities.
+  </p>
+
+  <div class="scheme-actions">
+    <a href="https://pmay-urban.gov.in/" target="_blank" class="btn btn-primary"
+       data-en="Go to PMAY-G Portal" data-mr="PMAY-G पोर्टल उघडा">Go to PMAY-G Portal</a>
+  </div>
+
+  <div class="scheme-meta">
+    <h4 data-en="What you need" data-mr="काय आवश्यक आहे">What you need</h4>
+    <ul class="need-list">
+      <li data-en="Aadhaar card linked with bank account"
+          data-mr="बँक खात्याशी लिंक असलेला आधार कार्ड">Aadhaar card linked with bank account</li>
+      <li data-en="Ration card or SECC-2011 data inclusion"
+          data-mr="रेशन कार्ड किंवा SECC-2011 यादीतील नाव">Ration card or SECC-2011 data inclusion</li>
+      <li data-en="Land ownership details or consent"
+          data-mr="जमिनीचे मालकी तपशील किंवा संमतीपत्र">Land ownership details or consent</li>
+      <li data-en="Mobile number for verification"
+          data-mr="पडताळणीसाठी मोबाईल नंबर">Mobile number for verification</li>
+    </ul>
+  </div>
+
+  <div class="guidelines">
+    <h4 data-en="Step-by-step Guidelines" data-mr="टप्प्याटप्प्याच्या सूचना">Step-by-step Guidelines</h4>
+    <ol class="scheme-steps">
+      <li data-en="Check your name in SECC-2011 list or approach Gram Panchayat for verification."
+          data-mr="SECC-2011 यादीत तुमचं नाव तपासा किंवा ग्रामपंचायतीकडे पडताळणीसाठी संपर्क करा.">
+          Check your name in SECC-2011 list or approach Gram Panchayat for verification.
+      </li>
+      <li data-en="If eligible, submit Aadhaar and bank details at GP for registration."
+          data-mr="पात्र असल्यास GP कडे आधार व बँक तपशील देऊन नोंदणी करा.">
+          If eligible, submit Aadhaar and bank details at GP for registration.
+      </li>
+      <li data-en="Your application will be uploaded on PMAY-G portal by officials."
+          data-mr="तुमचा अर्ज अधिकाऱ्यांमार्फत PMAY-G पोर्टलवर अपलोड होईल.">
+          Your application will be uploaded on PMAY-G portal by officials.
+      </li>
+      <li data-en="After sanction, first installment is credited to your bank account."
+          data-mr="मंजुरीनंतर पहिला हप्ता तुमच्या बँक खात्यात जमा होतो.">
+          After sanction, first installment is credited to your bank account.
+      </li>
+      <li data-en="Start construction of house, subsequent installments are released in phases."
+          data-mr="घर बांधकाम सुरू करा, नंतरचे हप्ते टप्प्याटप्प्याने मिळतात.">
+          Start construction of house, subsequent installments are released in phases.
+      </li>
+      <li data-en="Upload geo-tagged photos of house construction progress via official app."
+          data-mr="बांधकामाच्या प्रगतीचे geo-tagged फोटो अधिकृत अॅपमधून अपलोड करा.">
+          Upload geo-tagged photos of house construction progress via official app.
+      </li>
+      <li data-en="On completion, final verification is done by GP/Block officials."
+          data-mr="बांधकाम पूर्ण झाल्यावर अंतिम पडताळणी GP/Block अधिकाऱ्यांकडून केली जाते.">
+          On completion, final verification is done by GP/Block officials.
+      </li>
+    </ol>
+  </div>
+
+  <div class="scheme-videos">
+    <h4 data-en="Videos" data-mr="व्हिडिओ">Videos</h4>
+    <div class="video-container">
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/YGDUOwGqxNw?si=fPpykG--6It-LfTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="360" height="215" src="https://www.youtube.com/embed/INiwMrM7Ea8?si=vHebdqMw_uV-3oDq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+  </div>
+</div>
+</section>
+
+<!-- Applications & Fees Section -->
+<section id="applications-fees" class="applications-fees">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-en="Applications & Fees" data-mr="अर्ज आणि फी">Applications & Fees</h2>
+      <p class="section-subtitle" data-en="Details of various applications and their fee structure" data-mr="विविध अर्ज व त्यांचे शुल्क तपशील">Details of various applications and their fee structure</p>
+    </div>
+
+    <div class="fees-table">
+      <table>
+        <thead>
+          <tr>
+            <th data-en="Application Type" data-mr="अर्जाचा प्रकार">Application Type</th>
+            <th data-en="Required Documents" data-mr="आवश्यक कागदपत्रे">Required Documents</th>
+            <th data-en="Fees" data-mr="शुल्क">Fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-en="Birth Certificate" data-mr="जन्म प्रमाणपत्र">Birth Certificate</td>
+            <td data-en="Hospital Proof, Parents ID,Aadhaar Card" data-mr="रुग्णालय पुरावा, पालकांची ओळख,आधार कार्ड">Hospital Proof, Parents ID,Aadhaar Card</td>
+            <td>₹20</td>
+          </tr>
+          <tr>
+            <td data-en="Death Certificate" data-mr="मृत्यू प्रमाणपत्र">Death Certificate</td>
+            <td data-en="Aadhaar Card,Application" data-mr=" आधार कार्ड,अर्ज"> Aadhaar Card,Application</td>
+            <td>₹20</td>
+          </tr>
+          <tr>
+            <td data-en="Marriage Certificate" data-mr="विवाह प्रमाणपत्र">Marrige Certificate</td>
+            <td data-en="Ration Card, Aadhaar Card" data-mr="रेशन कार्ड, आधार कार्ड">Ration Card, Aadhaar Card</td>
+            <td>₹20</td>
+          </tr>
+          <tr>
+            <td data-en="Caste Certificate" data-mr="प्रमाणपत्र">Caste Certificate</td>
+            <td data-en="Parents Caste Proof, Aadhaar Card" data-mr="पालकांची जात पुरावा, आधार कार्ड">Parents Caste Proof, Aadhaar Card</td>
+            <td>₹20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Committees Section -->
+<section id="committees" class="committees">
+  <div class="container">
+    <h2 class="section-title" data-en="Committees" data-mr="समित्या">Committees</h2>
+    
+    <div class="committees-grid">
+
+      <div class="committee-card">
+        <h4 data-en="Water Supply Committee" data-mr="पाणीपुरवठा समिती">Water Supply Committee</h4>
+        <ul>
+          <li data-en="Mrs.Didi Lokesh Kale - Chairman" data-mr="सौ. दीदी लोकेश काळे - अध्यक्ष">Mrs.Didi Lokesh Kale - Chairman</li>
+          <li data-en="Mr. Navnath Pasare - Member" data-mr="स्श्री. नवनाथ पसारे - सदस्य">Mr. Navnath Pasare - Member</li>
+          <li data-en="Mr.Rama Koli - Member" data-mr="श्री. रामा कोळी - सदस्य">Mr.Rama Koli - Member</li>
+        </ul>
+      </div>
+
+      <div class="committee-card">
+        <h4 data-en="Village Child Rights Protection Committee" data-mr="ग्रामबाल हक्क संरक्षण समिती">Village Child Rights Protection Committee</h4>
+        <ul>
+          <li data-en="Mr.Shrimant Ramesh Fand - Chairperson" data-mr="श्री.श्रीमंत रमेश फंड - अध्यक्षा">Mr.Shrimant Ramesh Fand - Chairperson</li>
+          <li data-en="Mr.Kakasaheb Magar - Member" data-mr="श्री. काकासाहेब मगर - सदस्य">Mr.Kakasaheb Magar - Member</li>
+          <li data-en="Mrs. kavita Aandhalhe - Member" data-mr="श्रीमती. कविता आंधळे - सदस्य">Mrs. kavita Aandhalhe - Member</li>
+        </ul>
+      </div>
+
+      <div class="committee-card">
+        <h4 data-en="Women & Child Welfare Committee" data-mr="महिला व बालकल्याण समिती">Women & Child Welfare Committee</h4>
+        <ul>
+          <li data-en="Mrs.Didi Lokesh Kale - Chairperson" data-mr="स्सौ. दीदी लोकेश काळे - अध्यक्षा">Mrs.Didi Lokesh Kale - Chairperson</li>
+          <li data-en="Mrs. Suvrna Mali - Member" data-mr="श्रीमती.सुवर्णा माळी - सदस्य">Mrs. Suvrna Mali - Member</li>
+          <li data-en="Mrs.kavita Aandhalhe - Member" data-mr="श्रीमती. कविता आंधळे - सदस्य">Mrs.kavita Aandhalhe - Member</li>
+        </ul>
+      </div>
+
+      <div class="committee-card">
+        <h4 data-en="Yatra Committee" data-mr="यात्रा समिती">Yatra Committee</h4>
+        <ul>
+          <li data-en="Mrs.Didi Lokesh Kale - Chairperson" data-mr="स्सौ. दीदी लोकेश काळे - अध्यक्षा">Mrs.Didi Lokesh Kale - Chairperson</li>
+          <li data-en="Mr.Shrimant Ramesh Fand  - Member" data-mr="श्री.श्रीमंत रमेश फंड- सदस्य">Mr.Shrimant Ramesh Fand - Member</li>
+          <li data-en="Mr.Pratik Naikwadi - Member" data-mr="श्री. प्रतीक नाईकवाडी- सदस्य">Mr.Pratik Naikwadi - Member</li>
+        </ul>
+      </div>
+
+      <div class="committee-card">
+        <h4 data-en="Divabatti Committee" data-mr="दिवाबत्ती समिती">Divabatti Committee</h4>
+        <ul>
+          <li data-en="Mrs.Didi Lokesh Kale - Chairperson" data-mr="स्सौ. दीदी लोकेश काळे - अध्यक्षा">Mrs.Didi Lokesh Kale - Chairperson</li>
+          <li data-en="Mr. Navnath Pasare - Member" data-mr="श्री. नवनाथ पसारे - सदस्य">Mr. Navnath Pasare - Member</li>
+          <li data-en="Mr.Rama Koli - Member" data-mr="श्री. रामा कोळी- सदस्य">Mr.Rama Koli- Member</li>
+        </ul>
+      </div>
+
+      <div class="committee-card">
+        <h4 data-en="Construction Committee" data-mr="बांधकाम  समिती">Construction Committee</h4>
+        <ul>
+          <li data-en="Mrs.Didi Lokesh Kale - Chairperson" data-mr="स्सौ. दीदी लोकेश काळे - अध्यक्षा">Mrs.Didi Lokesh Kale - Chairperson</li>
+          <li data-en="Mr.Shrimant Ramesh Fand  - Member" data-mr="श्री.श्रीमंत रमेश फंड- सदस्य">Mr.Shrimant Ramesh Fand  - Member</li>
+          <li data-en="Mr.Bapurav Naikwadi - Member" data-mr="श्री.बापुराव नाईकवाडी - सदस्य">Mr.Bapurav Naikwadi - Member</li>
+        </ul>
+      </div>
+
+      <div class="committee-card">
+        <h4 data-en="cleaning committee" data-mr="स्वच्छता समिती">cleaning committee</h4>
+        <ul>
+          <li data-en="Mrs.Didi Lokesh Kale - Chairperson" data-mr="स्सौ. दीदी लोकेश काळे - अध्यक्षा">Mrs.Didi Lokesh Kale - Chairperson</li>
+          <li data-en="Mr.Pratik Naikwadi  - Member" data-mr="श्री. प्रतीक नाईकवाडी - सदस्य">Mr.Pratik Naikwadi - Member</li>
+          <li data-en="Mrs.Bhagyshree Aandhalhe   - Member" data-mr="श्रीमती. भाग्यश्री आंधळे - सदस्य">Mrs.Bhagyshree Aandhalhe - Member</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Tenders Section -->
+    <section id="Tenders" class="Tenders">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Tenders & Contracts" data-mr="निविदा आणि करार">Tenders & Contracts</h2>
+                <p class="section-subtitle" data-en="Current and upcoming tenders for village development projects" data-mr="गाव विकास प्रकल्पांसाठी सध्याच्या आणि आगामी निविदा">Current and upcoming tenders for village development projects</p>
+            </div>
+
+            <div class="tenders-grid" id="tendersGrid">
+                <!-- COMMENT: Add tender items here -->
+                <!-- Example format:
+                <div class="tender-item">
+                    <div class="tender-header">
+                        <h3 class="tender-title" data-en="Road Construction Project" data-mr="रस्ता बांधकाम प्रकल्प">Road Construction Project</h3>
+                        <span class="tender-status active" data-en="Active" data-mr="सक्रिय">Active</span>
+                    </div>
+                    <div class="tender-details">
+                        <p class="tender-description" data-en="Construction of concrete road from village center to agricultural area" data-mr="गावाच्या मध्यभागापासून कृषी क्षेत्रापर्यंत काँक्रीट रस्त्याचे बांधकाम">Construction of concrete road from village center to agricultural area</p>
+                        <div class="tender-info">
+                            <span class="tender-amount" data-en="Estimated Cost: ₹50,00,000" data-mr="अंदाजित खर्च: ₹50,00,000">Estimated Cost: ₹50,00,000</span>
+                            <span class="tender-deadline" data-en="Last Date: 31st March 2025" data-mr="शेवटची तारीख: 31 मार्च 2025">Last Date: 31st March 2025</span>
+                        </div>
+                        <div class="tender-actions">
+                            <a href="path/to/tender-document.pdf" download class="btn btn-primary" data-en="Download Tender" data-mr="निविदा डाउनलोड करा">Download Tender</a>
+                            <a href="path/to/application-form.pdf" download class="btn btn-secondary" data-en="Application Form" data-mr="अर्ज फॉर्म">Application Form</a>
+                        </div>
+                    </div>
+                </div>
+                -->
+                
+                <!-- Default message when no tenders are available -->
+                <div class="no-tenders">
+                    <div class="no-tenders-icon">📋</div>
+                    <h3 data-en="No Active Tenders" data-mr="कोणत्याही सक्रिय निविदा नाहीत">No Active Tenders</h3>
+                    <p data-en="Currently there are no active tenders. Please check back later for upcoming projects." data-mr="सध्या कोणत्याही सक्रिय निविदा नाहीत. आगामी प्रकल्पांसाठी कृपया नंतर तपासा.">Currently there are no active tenders. Please check back later for upcoming projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Photo Gallery" data-mr="फोटो गॅलरी">Photo Gallery</h2>
+                <p class="section-subtitle" data-en="Explore the beauty of our village" data-mr="आमच्या गावाचे सौंदर्य एक्सप्लोर करा">Explore the beauty of our village</p>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Contact Us" data-mr="आमच्याशी संपर्क साधा">Contact Us</h2>
+                <p class="section-subtitle" data-en="Get in touch for any queries or assistance" data-mr="कोणत्याही प्रश्न किंवा सहाय्यासाठी संपर्क साधा">Get in touch for any queries or assistance</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3 data-en="Office Address" data-mr="कार्यालयाचा पत्ता">Office Address</h3>
+                            <p data-en="Grampanchayat Office,Ter,Dharashiv,Maharashtra" data-mr="ग्रामपंचायत कार्यालय, तेर,धाराशिव , महाराष्ट्र">Ter Gav Grampanchayat Office, Ter Village, Maharashtra, India - 413509</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3 data-en="Phone Number" data-mr="फोन नंबर">Phone Number</h3>
+                            <p>+91 9403725118</p>
+                            <p>+91 7020393677</p>
+                            <p>+91 8308774202</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3 data-en="Email Address" data-mr="ईमेल पत्ता">Email Address</h3>
+                            <p>gster@gmail.com</p>
+                            <p>www.terGav.in</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <!-- Google Map -->
+                <div class="contact-map">
+                    <h3 data-en="Location Map" data-mr="स्थान नकाशा">Location Map</h3>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7575.1145945128155!2d76.14210648362796!3d18.321842750655076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc575a2911970d1%3A0xf90d4087ee062ae0!2sTer%2C%20Maharashtra%20413509!5e0!3m2!1sen!2sin!4v1755871203101!5m2!1sen!2sin"   
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-en="Ter Gav Grampanchayat" data-mr="तेर गाव ग्राम पंचायत">Ter Gav Grampanchayat</h3>
+                    <p data-en="Committed to serving our community with transparency and dedication." data-mr="पारदर्शकता आणि समर्पणाने आमच्या समुदायाची सेवा करण्यासाठी वचनबद्ध.">Committed to serving our community with transparency and dedication.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-mr="द्रुत लिंक्स">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-en="Home" data-mr="मुख्यपृष्ठ">Home</a></li>
+                        <li><a href="#about" data-en="About" data-mr="आमच्याबद्दल">About</a></li>
+                        <li><a href="#services" data-en="Services" data-mr="सेवा">Services</a></li>
+                        <li><a href="#notices" data-en="Notices" data-mr="सूचना">Notices</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-en="Government Links" data-mr="सरकारी लिंक्स">Government Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://aaplesarkar.mahaonline.gov.in" target="_blank" data-en="Aaple Sarkar" data-mr="आपले सरकार">Aaple Sarkar</a></li>
+                        <li><a href="https://maharashtra.gov.in" target="_blank" data-en="Maharashtra Govt" data-mr="महाराष्ट्र सरकार">Maharashtra Govt</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 data-en="Contact Info" data-mr="संपर्क माहिती">Contact Info</h4>
+                    <p>📞 +91 9403725118</p>
+                    <p>✉️ gster@gmail.com</p>
+                    <p data-en="Ter Village, Maharashtra" data-mr="तेर गाव, महाराष्ट्र">Ter Village, Maharashtra</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span data-en="Ter Gav Grampanchayat. All Rights Reserved." data-mr="तेर गाव ग्राम पंचायत. सर्व हक्क राखून ठेवलेले.">Ter Gav Grampanchayat. All Rights Reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
