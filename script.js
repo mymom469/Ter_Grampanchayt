@@ -617,6 +617,7 @@ function formatDate(dateString) {
     return date.toLocaleDateString('en-IN', options);
   }
 }
+fetch('data.json')
 
 /*
 ===========================================
@@ -859,6 +860,7 @@ function addGalleryItem(galleryData) {
   renderGallery();
 
 }
+
 
 
 
