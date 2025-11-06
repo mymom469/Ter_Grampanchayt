@@ -812,11 +812,17 @@
             </div>
         </div>
     </footer>
-
+<script>
+  document.getElementById('menuBtn').addEventListener('click', function(){
+    const m = document.getElementById('menu');
+    m.style.display = (m.style.display === 'none' || m.style.display === '') ? 'block' : 'none';
+  });
+</script>
     <script src="script.js"></script>
 </body>
 
 </html>
+
 
 
 
